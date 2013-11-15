@@ -16,4 +16,16 @@
             <version>0.1.0</version>
         </Mbiz_Maps>
     </modules>
+    <global>
+        <helpers>
+            <mbiz_maps>
+                <class>Mbiz_Maps_Helper</class>
+            </mbiz_maps>
+        </helpers>
+        <blocks>
+            <mbiz_maps>
+                <class>Mbiz_Maps_Block</class>
+            </mbiz_maps>
+        </blocks>
+    </global>
 </config>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * This file is part of Mbiz_Maps for Magento.
+ *
+ * @license All rights reserved.
+ * @author Léo Peltier <l.peltier@monsieurbiz.com>
+ * @category Mbiz
+ * @package Mbiz_Maps
+ * @copyright Copyright (c) 2013 Monsieur Biz (http://monsieurbiz.com/)
+ */
+-->
+<widgets>
+    <maps_osm type="mbiz_maps/osm" translate="name description" module="mbiz_maps">
+        <name>Maps: OpenStreetMap</name>
+        <description>Adds OpenStreetMap widget.</description>
+    </maps_osm>
+</widgets>
