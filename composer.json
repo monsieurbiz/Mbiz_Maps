@@ -1,0 +1,18 @@
+{
+    "name": "monsieurbiz/Mbiz_Maps",
+    "type": "magento-module",
+    "license": "BSD-2-Clause",
+    "version": "0.0.1",
+    "homepage": "https://github.com/monsieurbiz/Mbiz_Maps",
+    "description": "Magento extension to add a map widget.",
+    "authors": [
+        {
+            "name": "Léo Peltier",
+            "email": "l.peltier@monsieurbiz.com",
+            "homepage": "http://leo-peltier.fr/"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
