@@ -11,8 +11,38 @@
  */
 -->
 <widgets>
-    <maps_osm type="mbiz_maps/osm" translate="name description" module="mbiz_maps">
-        <name>Maps: OpenStreetMap</name>
-        <description>Adds OpenStreetMap widget.</description>
-    </maps_osm>
+    <maps type="mbiz_maps/simple" translate="name description" module="mbiz_maps">
+        <name>Maps</name>
+        <description>Adds a map widget.</description>
+        <parameters>
+            <provider>
+                <label>Provider</label>
+                <visible>0</visible>
+                <required>1</required>
+                <type>select</type>
+                <source_model>mbiz_maps/provider</source_model>
+                <value>osm</value>
+            </provider>
+            <coords>
+                <label>Coordinates (lat,lon)</label>
+                <visible>1</visible>
+                <required>1</required>
+                <type>text</type>
+            </coords>
+            <width>
+                <label>Width</label>
+                <visible>1</visible>
+                <required>1</required>
+                <type>text</type>
+                <value>425</value>
+            </width>
+            <height>
+                <label>Height</label>
+                <visible>1</visible>
+                <required>1</required>
+                <type>text</type>
+                <value>350</value>
+            </height>
+        </parameters>
+    </maps>
 </widgets>

@@ -27,5 +27,10 @@
                 <class>Mbiz_Maps_Block</class>
             </mbiz_maps>
         </blocks>
+        <models>
+            <mbiz_maps>
+                <class>Mbiz_Maps_Model</class>
+            </mbiz_maps>
+        </models>
     </global>
 </config>
