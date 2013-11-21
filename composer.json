@@ -2,7 +2,7 @@
     "name": "monsieurbiz/Mbiz_Maps",
     "type": "magento-module",
     "license": "BSD-2-Clause",
-    "version": "0.0.1",
+    "version": "1.0.1",
     "homepage": "https://github.com/monsieurbiz/Mbiz_Maps",
     "description": "Magento extension to add a map widget.",
     "authors": [
